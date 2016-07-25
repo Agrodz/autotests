@@ -3,7 +3,7 @@ package com.Agrodz.utils.convertors.calculators;
 import java.util.Scanner;
 
 public class EvenOrOdd {
-    public static void main(){
+    public static void evenOrOdd(){
         int evenOrOdd;
         System.out.println("Enter an integer for odd or even checking: ");
         Scanner in = new Scanner(System.in);

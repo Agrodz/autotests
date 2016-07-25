@@ -1,5 +1,6 @@
 package com.Agrodz.utils.convertors.runners;
 
+import com.Agrodz.utils.convertors.calculators.BiggerSmallerNumber;
 import com.Agrodz.utils.convertors.calculators.CircleArea;
 import com.Agrodz.utils.convertors.calculators.EvenOrOdd;
 import com.Agrodz.utils.convertors.calculators.RightAngleTriangle;
@@ -9,6 +10,6 @@ public class CalcRunner {
         CircleArea circleArea = new CircleArea();
         EvenOrOdd evenOrOdd = new EvenOrOdd();
         RightAngleTriangle rightAngleTriangle = new RightAngleTriangle();
-
+        BiggerSmallerNumber biggerSmallerNumber = new BiggerSmallerNumber();
     }
 }
