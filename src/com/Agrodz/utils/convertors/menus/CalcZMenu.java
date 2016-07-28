@@ -7,18 +7,14 @@ import com.Agrodz.utils.convertors.calculators.RightAngleTriangle;
 import java.util.Scanner;
 
 public class CalcZMenu {
-
-    public static void main(){
-
+    public static void calcZMenu(){
         System.out.println("Calc Z greet you!");
         Scanner scanner = new Scanner(System.in);
             System.out.println("Choose the number of task" + "\n"
                     + "1 - Area of the circle" + "\n" + "2 - Even or odd number" +
                     "\n" + "3 - Right angle triangle"+
                     "\n" + "4 - Bigger and smaller number");
-
         double numberOfTask = scanner.nextDouble();
-
         if (numberOfTask == 1) {
             CircleArea.circleArea();
         } else if (numberOfTask == 2) {

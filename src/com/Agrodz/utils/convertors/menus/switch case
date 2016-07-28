@@ -1,0 +1,18 @@
+package com.Agrodz.utils.convertors.menus;
+
+public class MenuSwitch {
+
+public static void switch (numberOfTask) {
+	csse 1: CircleArea.calculate();
+		break;
+	case 2: BiggerSmallerNumber.biggerSmaller(;
+		break;
+	case 3: RightAngledTriangle.rightAngeled();
+		break;
+	case 4: EvenOrOdd.evenOrOdd();
+		break;
+	case 0: break;
+	default: System.out.println
+			 ("You have made incorrect choice");
+}
+}
