@@ -14,7 +14,7 @@ public class RightAngleTriangle {
         double thirdNumber = scanner.nextDouble();
 
         if ((firstNumber * firstNumber + secondNumber * secondNumber == thirdNumber * thirdNumber) ||
-                (secondNumber * secondNumber + thirdNumber == firstNumber * firstNumber) ||
+                (secondNumber * secondNumber + thirdNumber * thirdNumber == firstNumber * firstNumber) ||
                 (thirdNumber * thirdNumber + firstNumber * firstNumber == secondNumber * secondNumber)) {
             System.out.println("Congratulations! It is a right-angle triangle");
         }

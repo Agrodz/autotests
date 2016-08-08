@@ -2,7 +2,7 @@
 //
 //public class OddArray {
 //
-//public static void main(String[] args){
+//public static void oddArray(){
 //
 //        int[]arr0=new int[100];
 //    {
@@ -15,8 +15,8 @@
 //            if (b % 2 != 0) {
 //
 //                System.out.print(b);
+//                }
 //            }
-//        }
 //        }
 //    }
 //}
